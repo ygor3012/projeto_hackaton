@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Faça Login</title>
+</head>
+<body>
+    <form class="container">
+        <h2>Login</h2>
+        <label class="email">
+            <p id="p_email">E-mail</p>
+            <input type="email" placeholder="Insira o e-mail" id="input_email">
+        </label>
+        <label class="senha">
+            <p id="p_senha">Senha</p>
+            <input type="password" placeholder="Insira a senha" id="input_senha">
+        </label>
+        <button id="btn_login">Login</button>
+        <button id="btn_cadastrar">Cadastrar</button>
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="login.js"></script>
+</body>
+</html>
